@@ -1,0 +1,27 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Блокноты Jupyter (временные чекпоинты)
+.ipynb_checkpoints/
+
+# Данные, датасеты и веса моделей (тяжелые файлы)
+data/
+datasets/
+*.csv
+*.pt
+*.pth
+*.onnx
+*.h5
+*.safetensors
+
+# Системные файлы и настройки IDE
+.vscode/
+.DS_Store
+*.log
